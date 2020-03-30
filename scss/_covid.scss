@@ -1,0 +1,204 @@
+.covid {
+    background: #ebf1f8;
+    -moz-box-shadow: inset 0 -7px 12px -17px #000000;
+    -webkit-box-shadow: inset 0 -7px 12px -17px #000000;
+    box-shadow: inset 0 -7px 12px -17px #000000;
+
+    .mef-gutter-padding {
+        padding: 0 2rem;
+
+    }
+
+    .badge-pad {
+
+        .covtag {
+            font-family: Roboto-Thin;
+            color: #252525;
+        }
+
+        .section-badge {
+            background: #0A8244;
+            color: #fff;
+            // display: inline-flex;
+
+
+            .white {
+
+                color: #dcdde1;
+                background: #dcdde1;
+                width: 25px;
+                display: inline-block;
+
+            }
+
+            .red {
+
+                color: #b12631;
+                background: #b12631;
+                width: 25px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .card {
+
+        .card-img-top-1 {
+            background: #342D4F;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+
+        }
+
+        .card-img-top-2 {
+            background: #493B43;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-img-top-3 {
+            background: #885573;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-img-top-4 {
+            background: #1E0233;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-title {
+            font-family: Roboto-Bold;
+            font-size: 1.06em;
+
+            a {
+                color: #053a9a;
+
+            }
+
+        }
+
+        .btn-primary {
+            background-color: #1d1d2c;
+            border: 0;
+        }
+
+
+
+
+
+    }
+
+
+    .button-section {
+
+        .thanks {
+
+            &:hover {
+                border: 7px solid #C8C8C8;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            width: 310px;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            // height: 40px;
+            border-radius: 36px !important;
+            font-family: Roboto-light;
+
+            font-size: 24px;
+            @include media-breakpoint-down(sm) {
+                font-size: 17px;
+            }
+
+            padding-top: 1px;
+            padding-bottom: 2px;
+            background-color: #0057FF;
+            padding-right: 1.2rem;
+            padding-left: 1.1rem;
+            // border: 7px solid rgba(167, 167, 167, 0.5);
+            border: 7px solid rgb(224, 224, 224);
+            -webkit-background-clip: padding-box;
+            /* for Safari */
+            background-clip: padding-box;
+            /* for IE9+, Firefox 4+, Opera, Chrome */
+
+            img {
+                width: 30px;
+                padding-bottom: 1px;
+            }
+        }
+
+        .faq {
+
+            &:hover {
+                border: 7px solid #C8C8C8;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            width: 145px;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            // height: 40px;
+            border-radius: 36px !important;
+            font-family: Roboto-light;
+
+            font-size: 24px;
+            @include media-breakpoint-down(sm) {
+                font-size: 17px;
+                padding-top: 2px;
+            }
+
+            padding-top: 1px;
+            padding-bottom: 2px;
+            background-color: #0057FF;
+            padding-right: 1.2rem;
+            padding-left: 1.1rem;
+            // border: 7px solid rgba(167, 167, 167, 0.5);
+            border: 7px solid rgb(224, 224, 224);
+            -webkit-background-clip: padding-box;
+            /* for Safari */
+            background-clip: padding-box;
+            /* for IE9+, Firefox 4+, Opera, Chrome */
+
+            img {
+                width: 30px;
+                padding-bottom: 1px;
+            }
+        }
+    }
+
+
+
+}
