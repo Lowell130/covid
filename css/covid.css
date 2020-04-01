@@ -10057,6 +10057,7 @@ h3 {
   background-color: #f6f6f6;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto-black;
 }
 #faq .faq-nav .nav-link:last-of-type {
   border-bottom-left-radius: 2px;
