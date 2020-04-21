@@ -1,0 +1,391 @@
+.covid-in {
+
+
+#info {
+    padding-top: 70px;
+}
+
+    background: transparent;
+    // -moz-box-shadow: inset 0 -7px 12px -17px #000000;
+    // -webkit-box-shadow: inset 0 -7px 12px -17px #000000;
+    // box-shadow: inset 0 -7px 12px -17px #000000;
+
+    .mef-gutter-padding {
+        padding: 0 2rem;
+
+    }
+
+    .badge-pad {
+
+        .covtag {
+            font-family: Roboto-Thin;
+            color: #252525;
+        }
+
+        .section-badge {
+            background: #0A8244;
+            color: #fff;
+            // display: inline-flex;
+
+
+            .white {
+
+                color: #dcdde1;
+                background: #dcdde1;
+                width: 25px;
+                display: inline-block;
+
+            }
+
+            .red {
+
+                color: #b12631;
+                background: #b12631;
+                width: 25px;
+                display: inline-block;
+            }
+        }
+    }
+
+
+    .card-shadow {
+        &:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        }
+
+        border-radius: 0px;
+    }
+
+    .card {
+
+
+
+
+
+        ul {
+            padding-left: 5px;
+        }
+
+        .card-img-top-1 {
+            background: #342D4F;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+
+        }
+
+        .card-img-top-2 {
+            background: #493B43;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-img-top-3 {
+            background: #885573;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-img-top-4 {
+            background: #1E0233;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-img-top-5 {
+            background: #f3d64c;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .card-img-top-place {
+            background: #dedede;
+            width: 100%;
+            padding: 10px 5px 0 5px;
+            // height: 200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+
+        .card-title {
+            font-family: Roboto-Bold;
+            font-size: 1.5rem;
+
+            a {
+                color: #053a9a;
+
+            }
+
+        }
+
+        .media-body {
+            .card-title {
+                margin-bottom: -0.25rem;
+            }
+        }
+
+        a.btn-primary {
+            text-decoration: none !important;
+
+            &:focus {
+                color: white !important;
+                outline: none !important;
+            }
+        }
+
+        .btn-primary {
+            // background-color: #1d1d2c;
+            border-radius: 0.25rem;
+            border: 0;
+            background: #0054AD;
+            border-color: #0054AD;
+
+            &:hover {
+                color: white !important;
+                background-color: #0069d9;
+            }
+        }
+
+
+
+
+    }
+
+
+
+
+
+    .ig {
+        .card-body {
+            // background:#0054AD;
+            padding: 0;
+            .carousel {
+
+               
+                // padding-bottom:60px;
+
+                .carousel-control-prev-icon,
+                .carousel-control-next-icon {
+
+                    width: 40px;
+                    height: 40px;
+                    // margin-bottom: 10px;
+                      -webkit-filter: drop-shadow(-3px 0px 5px rgba(0, 0, 0, 0.5));      
+                    filter: drop-shadow(-3px 0px 5px rgba(0, 0, 0, 0.5)); 
+                     
+               }
+
+                .carousel-control-prev, .carousel-control-next {
+                    opacity: unset!important;
+                    
+                    
+                    
+                }
+
+                a {
+                    &:focus {
+                        outline: none !important;
+                    }
+                }
+
+                .carousel-item {
+                    img {
+                        height: 360px;
+                        object-fit: cover;
+                        background: grey;
+
+                        // polifill IE
+                        font-family: 'object-fit: contain;';
+                        // @include media-breakpoint-down(sm) {
+                        //     height: 100%;
+                        // }
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+
+
+    .button-section {
+
+        .thanks {
+
+            &:hover {
+                border: 7px solid #C8C8C8;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            width: 310px;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            // height: 40px;
+            border-radius: 36px !important;
+            font-family: Roboto-light;
+
+            font-size: 1.5rem;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.0625rem
+            }
+
+            padding-top: 1px;
+            padding-bottom: 2px;
+            background-color: #0057FF;
+            padding-right: 1.2rem;
+            padding-left: 1.1rem;
+            // border: 7px solid rgba(167, 167, 167, 0.5);
+            border: 7px solid rgb(224, 224, 224);
+            -webkit-background-clip: padding-box;
+            /* for Safari */
+            background-clip: padding-box;
+            /* for IE9+, Firefox 4+, Opera, Chrome */
+
+            img {
+                width: 30px;
+                padding-bottom: 1px;
+            }
+        }
+
+
+
+        .faq {
+
+            &:hover {
+                border: 7px solid #C8C8C8;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            width: 150px;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            // height: 40px;
+            border-radius: 36px !important;
+            font-family: Roboto-light;
+
+            font-size: 1.5rem;
+            @include media-breakpoint-down(sm) {
+                font-size: 1.0625rem;
+                padding-top: 2px;
+            }
+
+            padding-top: 1px;
+            padding-bottom: 2px;
+            background-color: #0057FF;
+            padding-right: 1.2rem;
+            padding-left: 1.1rem;
+            // border: 7px solid rgba(167, 167, 167, 0.5);
+            border: 7px solid rgb(224, 224, 224);
+            -webkit-background-clip: padding-box;
+            /* for Safari */
+            background-clip: padding-box;
+            /* for IE9+, Firefox 4+, Opera, Chrome */
+
+            img {
+                width: 30px;
+                padding-bottom: 1px;
+            }
+        }
+    }
+
+
+    .jumbotron {
+        color: black;
+        background-image: url("/covid-19/img/Covid-BG-small.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        //shadow
+        -moz-box-shadow: inset 0 -2px 6px -6px #000000;
+        -webkit-box-shadow: inset 0 -2px 6px -6px #000000;
+        box-shadow: inset 0 -2px 6px -6px #000000;
+        margin-bottom: 0;
+        // height: 35vh;
+        height: 240px;
+
+        @include media-breakpoint-down(md) {
+            height: 160px;
+        }
+
+        .display-4 {
+            font-family: Roboto-black;
+            color: #092644;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.8rem;
+            }
+
+            a {
+                color: #092644;
+                text-decoration: none;
+            }
+
+        }
+
+        .sub-title {
+            font-family: Roboto-regular;
+            color: #092644;
+            font-size: 2rem;
+
+            @include media-breakpoint-down(md) {
+                font-size: 1.5rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.1rem;
+            }
+
+
+            a {
+                color: #092644;
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+}

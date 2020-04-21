@@ -1,179 +1,201 @@
-// FAQ
+.section-faq {
+
+    // FAQ    
+    h3 {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        font-family: Roboto-light !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        border-bottom: none !important;
 
 
-
-#faq {
-
-
-      .faq-nav {
-        flex-direction: column;
-        margin: 0 0 32px;
-        border-radius: 2px;
-        border: 1px solid #ddd;
-        box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
-
-        a {
-            &:focus {
-                outline: 0.2rem #79abfb solid;
-                outline-offset: -3px;
-            }
-        }
-
-        .nav-link {
-            position: relative;
-            display: block;
-            margin: 0;
-            padding: 13px 16px;
-            background-color: #fff;
-            border: 0;
-            border-bottom: 1px solid #ddd;
-            border-radius: 0;
-            color: #616161;
-            transition: background-color .2s ease;
-
-            a:focus {
-                // outline-offset: -0.22rem;
-                // outline: 0.2rem dotted #1a1a1a;
-            }
-
-
-            &:hover {
-                background-color: #f6f6f6;
-            }
-
-            &.active {
-                background-color: #f6f6f6;
-                // font-weight: 700;
-                color: rgba(0, 0, 0, .87);
-                font-family: Roboto-black;
-            }
-
-            &:last-of-type {
-                border-bottom-left-radius: 2px;
-                border-bottom-right-radius: 2px;
-                border-bottom: 0;
-            }
-
-            i.mdi {
-                margin-right: 5px;
-                font-size: 18px;
-                position: relative;
-            }
-        }
     }
 
-    // TAB CONTENT
-    .tab-content {
-        box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+    #faq {
+        .faq-nav {
+            flex-direction: column;
+            margin: 0 0 32px;
+            border-radius: 2px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
 
-        .card {
-            border-radius: 0;
-        }
-
-        .card-header {
-
-            padding: 15px 16px;
-            border-radius: 0;
-            background-color: #f6f6f6;
-
-            // &:focus {
-            //  background-color: red;
-
-            // }
-
-
-
-
-            h5 {
-                margin: 0;
-
-
-                a {
-                    color: rgba(0, 0, 0, .87);
-                    font-family: Roboto-black;
-                    font-size: 1rem;
-                    text-decoration: none;
-                    display: block;
-
-
-                    &:focus {
-                        outline: 0.2rem #79abfb solid;
-                        outline-offset: 2px;
-                        @include media-breakpoint-down(sm) { 
-                            outline: none;
-                            outline-offset: none;
-                         }
-
-                    }
-                }
-
-                button {
-                    display: block;
-                    width: 100%;
-                    padding: 0;
-                    border: 0;
-                    font-weight: 700;
-                    color: rgba(0, 0, 0, .87);
-                    text-align: left;
-                    white-space: normal;
-                    font-family: Roboto-black;
-
-                    &:hover,
-                    &:focus,
-                    &:active,
-                    &:hover:active {
-                        text-decoration: none;
-                    }
+            a {
+                &:focus {
+                    outline: 0.2rem #79abfb solid;
+                    outline-offset: -3px;
                 }
             }
-        }
 
-        .card-body {
-            p {
+            .nav-link {
+                position: relative;
+                display: block;
+                margin: 0;
+                padding: 13px 16px;
+                background-color: #fff;
+                border: 0;
+                border-bottom: 1px solid #ddd;
+                border-radius: 0;
                 color: #616161;
+                transition: background-color .2s ease;
+                text-decoration-color: #919091;
+
+               
+
+                a:focus {
+                    // outline-offset: -0.22rem;
+                    // outline: 0.2rem dotted #1a1a1a;
+                }
+
+
+                &:hover {
+                    background-color: #f6f6f6;
+                }
+
+                &.active {
+                    background-color: #f6f6f6;
+                    // font-weight: 700;
+                    color: rgba(0, 0, 0, .87);
+                    font-family: Roboto-black;
+                }
 
                 &:last-of-type {
+                    border-bottom-left-radius: 2px;
+                    border-bottom-right-radius: 2px;
+                    border-bottom: 0;
+                }
+
+                i.mdi {
+                    margin-right: 5px;
+                    font-size: 18px;
+                    position: relative;
+                }
+            }
+        }
+
+        // TAB CONTENT
+        .tab-content {
+            box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+            // border: 1px solid #ddd;
+            border-bottom: none;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+
+            .card {
+                border-radius: 0;
+            }
+
+            .card-header {
+
+                padding: 15px 16px;
+                border-radius: 0;
+                background-color: #f6f6f6;
+                border-bottom: 1px solid #ddd;
+
+                // &:focus {
+                //  background-color: red;
+
+                // }
+
+
+
+
+                h5 {
                     margin: 0;
+
+
+                    a {
+                        color: rgba(0, 0, 0, .87);
+                        font-family: Roboto-black;
+                        font-size: 1rem;
+                        text-decoration: underline;
+                        display: block;
+                        text-decoration-color: #919091;
+
+
+                        &:focus {
+                            outline: 0.2rem #79abfb solid;
+                            outline-offset: 2px;
+
+                            @include media-breakpoint-down(sm) {
+                                outline: none;
+                                outline-offset: none;
+                            }
+
+                        }
+                    }
+
+                    button {
+                        display: block;
+                        width: 100%;
+                        padding: 0;
+                        border: 0;
+                        font-weight: 700;
+                        color: rgba(0, 0, 0, .87);
+                        text-align: left;
+                        white-space: normal;
+                        font-family: Roboto-black;
+
+                        &:hover,
+                        &:focus,
+                        &:active,
+                        &:hover:active {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .card-body {
+                border-bottom: 1px solid #ddd;
+
+                p {
+                    color: #616161;
+
+                    &:last-of-type {
+                        margin: 0;
+                    }
                 }
             }
         }
-    }
 
 
-    // BORDER FIX
+        // BORDER FIX
 
-    .accordion>.card>.card-header {
-        border-radius: 0;
-        margin-bottom: 0;
+        .accordion>.card>.card-header {
+            border-radius: 0;
+            margin-bottom: 0;
 
-    }
-
-
-    .accordion {
-        >.card {
-            &:not(:first-child) {
-                border-top: 0;
+        }
 
 
-                .card-header {
-                    margin-bottom: 0;
+        .accordion {
+            >.card {
+                &:not(:first-child) {
+                    border-top: 0;
 
+
+                    .card-header {
+                        margin-bottom: 0;
+
+                    }
                 }
             }
         }
-    }
 
 
 
-    .collapse.show {
+        .collapse.show {
 
-        .card-body {
-            border-bottom: 1px solid rgba(0, 0, 0, .125);
+            .card-body {
+                border-bottom: 1px solid #ddd;
+            }
+
         }
 
+
+
+
     }
-
-
-
 
 }
