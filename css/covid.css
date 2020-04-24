@@ -9955,7 +9955,7 @@ h3 {
   width: 310px;
   border-radius: 36px !important;
   font-family: Roboto-light;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding-top: 1px;
   padding-bottom: 2px;
   background-color: #0057FF;
@@ -9981,7 +9981,7 @@ h3 {
 }
 @media (max-width: 767.98px) {
   .covid .button-section .thanks {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
 }
 .covid .button-section .thanks img {
@@ -9992,7 +9992,7 @@ h3 {
   width: 150px;
   border-radius: 36px !important;
   font-family: Roboto-light;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding-top: 1px;
   padding-bottom: 2px;
   background-color: #0057FF;
@@ -10018,7 +10018,7 @@ h3 {
 }
 @media (max-width: 767.98px) {
   .covid .button-section .faq {
-    font-size: 17px;
+    font-size: 1.0625rem;
     padding-top: 2px;
   }
 }
@@ -10128,7 +10128,7 @@ h3 {
 }
 .covid-in .card a.btn-primary:focus {
   color: white !important;
-  outline: none !important;
+  outline: unset !important;
 }
 .covid-in .card .btn-primary {
   border-radius: 0.25rem;
@@ -10150,11 +10150,12 @@ h3 {
   -webkit-filter: drop-shadow(-3px 0px 5px rgba(0, 0, 0, 0.5));
   filter: drop-shadow(-3px 0px 5px rgba(0, 0, 0, 0.5));
 }
-.covid-in .ig .card-body .carousel .carousel-control-prev, .covid-in .ig .card-body .carousel .carousel-control-next {
+.covid-in .ig .card-body .carousel .carousel-control-prev,
+.covid-in .ig .card-body .carousel .carousel-control-next {
   opacity: unset !important;
 }
 .covid-in .ig .card-body .carousel a:focus {
-  outline: none !important;
+  outline: unset !important;
 }
 .covid-in .ig .card-body .carousel .carousel-item img {
   height: 360px;
@@ -10182,7 +10183,7 @@ h3 {
   border: 7px solid #C8C8C8;
 }
 .covid-in .button-section .thanks:focus {
-  outline: none;
+  outline: unset;
 }
 @media (max-width: 767.98px) {
   .covid-in .button-section .thanks {
@@ -10219,7 +10220,7 @@ h3 {
   border: 7px solid #C8C8C8;
 }
 .covid-in .button-section .faq:focus {
-  outline: none;
+  outline: unset;
 }
 @media (max-width: 767.98px) {
   .covid-in .button-section .faq {
@@ -10306,6 +10307,45 @@ h3 {
   outline: 0.2rem #79abfb solid;
   outline-offset: -3px;
 }
+.section-faq #faq .faq-nav a sup {
+  display: inline-block !important;
+  /* Remove parent's text-decoration */
+  color: #616161;
+  top: -2px;
+}
+.section-faq #faq .faq-nav a.sub-nav-link {
+  text-decoration: underline !important;
+}
+.section-faq #faq .faq-nav a.sub-nav-link:hover {
+  text-decoration: underline !important;
+}
+.section-faq #faq .faq-nav .sub-nav-link {
+  font-size: 0.9rem;
+  color: #616161;
+  display: block;
+  margin: 0;
+  padding: 7px 30px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  color: #616161;
+  transition: background-color 0.2s ease;
+  text-decoration-color: #919091;
+}
+.section-faq #faq .faq-nav .sub-nav-link.active {
+  font-family: Roboto-Black !important;
+}
+.section-faq #faq .faq-nav #liq {
+  background: #f6f6f6;
+}
+.section-faq #faq .faq-nav .active2 {
+  background-color: #f6f6f6 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  font-family: Roboto-black;
+}
+.section-faq #faq .faq-nav .active2:hover {
+  background-color: #f6f6f6 !important;
+}
 .section-faq #faq .faq-nav .nav-link {
   position: relative;
   display: block;
@@ -10334,7 +10374,7 @@ h3 {
 }
 .section-faq #faq .faq-nav .nav-link i.mdi {
   margin-right: 5px;
-  font-size: 18px;
+  font-size: 1.125rem;
   position: relative;
 }
 .section-faq #faq .tab-content {
@@ -10369,8 +10409,8 @@ h3 {
 }
 @media (max-width: 767.98px) {
   .section-faq #faq .tab-content .card-header h5 a:focus {
-    outline: none;
-    outline-offset: none;
+    outline: unset;
+    outline-offset: unset;
   }
 }
 .section-faq #faq .tab-content .card-header h5 button {

@@ -27,6 +27,67 @@
                 }
             }
 
+            a sup {
+                display: inline-block!important; /* Remove parent's text-decoration */
+                color: #616161;
+                top:-2px;
+                // @include ie-only() {
+                //     top:-2px;
+                //   }
+              }
+
+            // NUOVA SEZIONE FAQ LIQUIDITA
+            a.sub-nav-link {
+                text-decoration: underline !important;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+
+                // &.active {
+                //     background-color: #f6f6f6;
+                //     // font-weight: 700;
+                //     color: rgba(0, 0, 0, .87);
+                //     font-family: Roboto-black;
+                // }
+
+            }
+
+
+            .sub-nav-link {
+                font-size: .9rem;              
+                color: #616161;
+                display: block;
+                margin: 0;
+                padding: 7px 30px;
+                background-color: #fff;
+                border: 0;
+
+                border-radius: 0;
+                color: #616161;
+                transition: background-color .2s ease;
+                text-decoration-color: #919091;
+                
+                &.active {
+                    font-family: Roboto-Black!important;
+                }
+            }
+
+            #liq {
+                background: #f6f6f6;
+            }
+            .active2 {
+
+                background-color: #f6f6f6!important;
+                // font-weight: 700;
+                color: rgba(0, 0, 0, .87)!important;
+                font-family: Roboto-black;
+                &:hover {
+                    background-color: #f6f6f6!important;
+                }
+               
+            }
+            // FINE NUOVA SEZIONE FAQ LIQUIDITA
             .nav-link {
                 position: relative;
                 display: block;
@@ -40,7 +101,10 @@
                 transition: background-color .2s ease;
                 text-decoration-color: #919091;
 
+
                
+
+
 
                 a:focus {
                     // outline-offset: -0.22rem;
@@ -59,6 +123,8 @@
                     font-family: Roboto-black;
                 }
 
+
+
                 &:last-of-type {
                     border-bottom-left-radius: 2px;
                     border-bottom-right-radius: 2px;
@@ -67,7 +133,7 @@
 
                 i.mdi {
                     margin-right: 5px;
-                    font-size: 18px;
+                    font-size: 1.125rem;
                     position: relative;
                 }
             }
@@ -118,8 +184,8 @@
                             outline-offset: 2px;
 
                             @include media-breakpoint-down(sm) {
-                                outline: none;
-                                outline-offset: none;
+                                outline: unset;
+                                outline-offset: unset;
                             }
 
                         }
