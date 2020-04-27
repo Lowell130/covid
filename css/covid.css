@@ -9971,7 +9971,7 @@ h3 {
   border: 7px solid #C8C8C8;
 }
 .covid .button-section .thanks:focus {
-  outline: none;
+  outline: unset;
 }
 @media (max-width: 767.98px) {
   .covid .button-section .thanks {
@@ -10008,7 +10008,7 @@ h3 {
   border: 7px solid #C8C8C8;
 }
 .covid .button-section .faq:focus {
-  outline: none;
+  outline: unset;
 }
 @media (max-width: 767.98px) {
   .covid .button-section .faq {
@@ -10266,7 +10266,9 @@ h3 {
 }
 .covid-in .jumbotron .display-4 a {
   color: #092644;
-  text-decoration: none;
+}
+.covid-in .jumbotron .display-4 a:hover {
+  text-decoration: underline;
 }
 .covid-in .jumbotron .sub-title {
   font-family: Roboto-regular;
