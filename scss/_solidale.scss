@@ -1,0 +1,11 @@
+.solidale {
+
+    .btn-lg {
+        background-color: coral!important;
+        &:focus {
+            outline: none!important;
+        }
+
+
+    }
+}

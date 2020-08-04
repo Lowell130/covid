@@ -1,6 +1,6 @@
 .covid-in {
 
-
+   
 
 
     #info {
@@ -195,33 +195,14 @@
 
 
 
-    //inizio carosello
+
     .ig {
         .card-body {
             // background:#0054AD;
             padding: 0;
 
-
             .carousel {
-                .carousel-indicators {
-                    bottom: 70px;
-                    background: black;
-                }
 
-                .fig {
-                    padding: 5px;
-                    margin-top: 0;
-                    // min-height: 75px;
-                }
-
-                .figure-caption {
-                    font-size: 90%;
-                    color: #6c757d;
-                    min-height: 45px;
-
-                    // padding-left: 5px;
-                    // padding-right: 5px;
-                }
 
                 // padding-bottom:60px;
 
@@ -229,55 +210,39 @@
                 .carousel-control-next-icon {
 
                     width: 45px;
-                    height: 65px;
+                    height: 45px;
                     // margin-bottom: 10px;
                     -webkit-filter: drop-shadow(-3px 0px 5px rgba(0, 0, 0, 0.5));
                     filter: drop-shadow(-3px 0px 5px rgba(0, 0, 0, 0.5));
                     background-color: black;
-                    opacity: 0.8;
-
-                    @media all and (-ms-high-contrast: none),
-                    (-ms-high-contrast: active) {
-                        opacity: 9;
-                    }
-
                     background-size: 72% auto;
-                    // border-radius: 50%;
+                    border-radius: 50%;
 
-                    @media (max-width: 575.98px) {
+                    @media (max-width: 575.98px) { 
                         width: 30px;
-                        height: 50px;
-                    }
+                        height: 30px;
+                     }
 
                     &:focus {
                         // box-shadow: 0 0 0 0.2rem #79abfb !important;
-                        outline: 0.2rem solid #79abfb;
-                    }
-
-                    &:hover {
-                        opacity: 1;
+                        // outline: 0.2rem solid #79abfb;
                     }
 
                 }
 
                 .carousel-control-prev,
                 .carousel-control-next {
-                    opacity: 1;
-                    width: auto;
-                    top: 30%;
-                    bottom: 40%;
+                    opacity: unset !important;
+                    width: 20%;
 
-                    // padding-right: 5px;
-                    // padding-left: 5px;
+
+
                 }
 
                 a {
                     &:focus {
                         // outline: unset !important;
                         outline: 0.2rem solid #79abfb;
-
-
-
                     }
                 }
 
@@ -285,23 +250,16 @@
                     img {
                         height: 360px;
                         object-fit: cover;
-                        background: white;
+                        background: grey;
+
                         // polifill IE
                         font-family: 'object-fit: contain;';
                         // @include media-breakpoint-down(sm) {
                         //     height: 100%;
                         // }
                     }
-
-                    a {
-                        &:focus {
-                            outline: 0.2rem solid #79abfb;
-                        }
-                    }
-
                 }
             }
-
 
         }
     }
@@ -408,35 +366,6 @@
 
 
     .jumbotron {
-        .btn-danger {
-            font-family: Roboto-black;
-            .fa-heart {
-                color:#ff0018;
-            }
-            background-color: #0041d2;
-            border-color: #0041d2;
-
-            &:hover {
-                background-color: #053dad;
-                border-color: #053dad;
-            }
-
-            &:focus {
-                //             
-                box-shadow: 0 0 0 0.2rem #0041d27a;
-            }
-
-
-
-            border-radius: 0.25rem !important;
-
-            @include media-breakpoint-down(xs) {
-                width: 100%;
-            }
-
-
-        }
-
         color: black;
         background-image: url("/covid-19/img/Covid-BG-small.jpg");
         background-position: center;
@@ -450,22 +379,16 @@
         // height: 35vh;
         height: 240px;
 
-
         @include media-breakpoint-down(md) {
             height: 160px;
         }
-
-
-
-
-
 
         .display-4 {
             font-family: Roboto-black;
             color: #092644;
 
             @include media-breakpoint-down(sm) {
-                font-size: 1.5625rem;
+                font-size: 1.8rem;
             }
 
             a {
@@ -474,7 +397,6 @@
                 &:hover {
                     text-decoration: underline;
                 }
-
                 &:focus {
                     // outline: .2rem solid #79abfb;
                     outline: .2rem dotted #1a1a1a;
@@ -518,7 +440,7 @@
 
 
 
-
+   
 
 
 

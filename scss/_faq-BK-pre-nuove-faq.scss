@@ -13,10 +13,6 @@
     }
 
     #faq {
-
-
-
-
         .faq-nav {
             flex-direction: column;
             margin: 0 0 32px;
@@ -32,14 +28,13 @@
             }
 
             a sup {
-                display: inline-block !important;
-                /* Remove parent's text-decoration */
+                display: inline-block!important; /* Remove parent's text-decoration */
                 color: #616161;
-                top: -2px;
+                top:-2px;
                 // @include ie-only() {
                 //     top:-2px;
                 //   }
-            }
+              }
 
             // NUOVA SEZIONE FAQ LIQUIDITA
             a.sub-nav-link {
@@ -60,7 +55,7 @@
 
 
             .sub-nav-link {
-                font-size: .9rem;
+                font-size: .9rem;              
                 color: #616161;
                 display: block;
                 margin: 0;
@@ -72,29 +67,26 @@
                 color: #616161;
                 transition: background-color .2s ease;
                 text-decoration-color: #919091;
-
+                
                 &.active {
-                    font-family: Roboto-Black !important;
+                    font-family: Roboto-Black!important;
                 }
             }
 
             #liq {
                 background: #f6f6f6;
             }
-
             .active2 {
 
-                background-color: #f6f6f6 !important;
+                background-color: #f6f6f6!important;
                 // font-weight: 700;
-                color: rgba(0, 0, 0, .87) !important;
+                color: rgba(0, 0, 0, .87)!important;
                 font-family: Roboto-black;
-
                 &:hover {
-                    background-color: #f6f6f6 !important;
+                    background-color: #f6f6f6!important;
                 }
-
+               
             }
-
             // FINE NUOVA SEZIONE FAQ LIQUIDITA
             .nav-link {
                 position: relative;
@@ -110,7 +102,7 @@
                 text-decoration-color: #919091;
 
 
-
+               
 
 
 
@@ -149,7 +141,7 @@
 
         // TAB CONTENT
         .tab-content {
-            box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+            box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);           
             // border-color: 1px solid #6c757d !important;
             border-bottom: none;
             border-bottom-left-radius: 3px;
@@ -159,12 +151,13 @@
                 border-radius: 0;
             }
 
-
-
             .card-header {
+
                 border-left: solid 1px #6c757d;
                 border-right: solid 1px #6c757d;
-                // padding: 15px 16px;
+
+
+                padding: 15px 16px;
                 border-radius: 0;
                 background-color: #f6f6f6;
                 // border-bottom: 1px solid #ddd;
@@ -174,26 +167,6 @@
                 //  background-color: red;
 
                 // }
-
-                button {
-                    border: 0;
-                    background: transparent;
-                    text-align: left;
-                    color: rgba(0, 0, 0, 0.87);
-                    font-family: Roboto-black;
-                    font-size: 1rem;
-                    text-decoration: underline;
-                    display: block;
-                    text-decoration-color: #919091;
-                    line-height: 1.2;
-
-                    &:focus {
-                        outline: 0.2rem #79abfb solid;
-                        outline-offset: 2px;
-                    }
-
-                }
-
 
 
 
@@ -249,8 +222,6 @@
                 border-left: 1px solid #6c757d;
                 border-right: 1px solid #6c757d;
 
-
-
                 p {
                     color: #616161;
 
@@ -258,8 +229,6 @@
                         margin: 0;
                     }
                 }
-
-
             }
         }
 
@@ -277,7 +246,6 @@
             border-top: 1px solid #6c757d;
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
-
             >.card {
                 &:not(:first-child) {
                     border-top: 0;
@@ -297,16 +265,6 @@
 
             .card-body {
                 border-bottom: 1px solid #6c757d;
-            }
-
-            &:focus {
-                // border: 0.2rem solid #79abfb!important;
-                outline: 0.2rem #79abfb solid;
-                outline-offset: -3px;
-                 @include ie-only() {
-                     border: 1px solid #79abfb!important;
-                   }
-            
             }
 
         }

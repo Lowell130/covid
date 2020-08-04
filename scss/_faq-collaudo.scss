@@ -178,7 +178,7 @@
                 button {
                     border: 0;
                     background: transparent;
-                    text-align: left;
+                    text-align: initial;
                     color: rgba(0, 0, 0, 0.87);
                     font-family: Roboto-black;
                     font-size: 1rem;
@@ -191,129 +191,125 @@
                         outline: 0.2rem #79abfb solid;
                         outline-offset: 2px;
                     }
+                
+            }
 
+
+
+
+
+            h5 {
+                margin: 0;
+
+
+                a {
+                    color: rgba(0, 0, 0, .87);
+                    font-family: Roboto-black;
+                    font-size: 1rem;
+                    text-decoration: underline;
+                    display: block;
+                    text-decoration-color: #919091;
+
+
+                    &:focus {
+                        outline: 0.2rem #79abfb solid;
+                        outline-offset: 2px;
+
+                        @include media-breakpoint-down(sm) {
+                            outline: unset;
+                            outline-offset: unset;
+                        }
+
+                    }
                 }
 
+                button {
+                    display: block;
+                    width: 100%;
+                    padding: 0;
+                    border: 0;
+                    font-weight: 700;
+                    color: rgba(0, 0, 0, .87);
+                    text-align: left;
+                    white-space: normal;
+                    font-family: Roboto-black;
 
+                    &:hover,
+                    &:focus,
+                    &:active,
+                    &:hover:active {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
 
+        .card-body {
+            border-bottom: 1px solid #6c757d;
+            border-left: 1px solid #6c757d;
+            border-right: 1px solid #6c757d;
+        
+         
 
+            p {
+                color: #616161;
 
-                h5 {
+                &:last-of-type {
                     margin: 0;
-
-
-                    a {
-                        color: rgba(0, 0, 0, .87);
-                        font-family: Roboto-black;
-                        font-size: 1rem;
-                        text-decoration: underline;
-                        display: block;
-                        text-decoration-color: #919091;
-
-
-                        &:focus {
-                            outline: 0.2rem #79abfb solid;
-                            outline-offset: 2px;
-
-                            @include media-breakpoint-down(sm) {
-                                outline: unset;
-                                outline-offset: unset;
-                            }
-
-                        }
-                    }
-
-                    button {
-                        display: block;
-                        width: 100%;
-                        padding: 0;
-                        border: 0;
-                        font-weight: 700;
-                        color: rgba(0, 0, 0, .87);
-                        text-align: left;
-                        white-space: normal;
-                        font-family: Roboto-black;
-
-                        &:hover,
-                        &:focus,
-                        &:active,
-                        &:hover:active {
-                            text-decoration: none;
-                        }
-                    }
                 }
             }
 
-            .card-body {
-                border-bottom: 1px solid #6c757d;
-                border-left: 1px solid #6c757d;
-                border-right: 1px solid #6c757d;
-
-
-
-                p {
-                    color: #616161;
-
-                    &:last-of-type {
-                        margin: 0;
-                    }
-                }
-
-
-            }
+       
         }
+    }
 
 
-        // BORDER FIX
+    // BORDER FIX
 
-        .accordion>.card>.card-header {
-            border-radius: 0;
-            margin-bottom: 0;
-
-        }
-
-
-        .accordion {
-            border-top: 1px solid #6c757d;
-            border-top-left-radius: 3px;
-            border-top-right-radius: 3px;
-
-            >.card {
-                &:not(:first-child) {
-                    border-top: 0;
-
-
-                    .card-header {
-                        margin-bottom: 0;
-
-                    }
-                }
-            }
-        }
-
-
-
-        .collapse.show {
-
-            .card-body {
-                border-bottom: 1px solid #6c757d;
-            }
-
-            &:focus {
-                // border: 0.2rem solid #79abfb!important;
-                outline: 0.2rem #79abfb solid;
-                outline-offset: -3px;
-                 @include ie-only() {
-                     border: 1px solid #79abfb!important;
-                   }
-            
-            }
-
-        }
-
-
-
+    .accordion>.card>.card-header {
+        border-radius: 0;
+        margin-bottom: 0;
 
     }
+
+
+    .accordion {
+        border-top: 1px solid #6c757d;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+        >.card {
+            &:not(:first-child) {
+                border-top: 0;
+
+
+                .card-header {
+                    margin-bottom: 0;
+
+                }
+            }
+        }
+    }
+
+
+
+    .collapse.show {
+
+        .card-body {
+            border-bottom: 1px solid #6c757d;
+        }
+
+        &:focus {
+            // border: 0.2rem solid #79abfb!important;
+            outline: 0.2rem #79abfb solid;
+outline-offset: -3px;
+         }
+
+    }
+
+
+
+
+}
 
 }

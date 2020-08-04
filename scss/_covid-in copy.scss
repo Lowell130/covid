@@ -195,7 +195,7 @@
 
 
 
-    //inizio carosello
+//inizio carosello
     .ig {
         .card-body {
             // background:#0054AD;
@@ -204,7 +204,7 @@
 
             .carousel {
                 .carousel-indicators {
-                    bottom: 70px;
+                    bottom:70px;
                     background: black;
                 }
 
@@ -253,7 +253,6 @@
                         // box-shadow: 0 0 0 0.2rem #79abfb !important;
                         outline: 0.2rem solid #79abfb;
                     }
-
                     &:hover {
                         opacity: 1;
                     }
@@ -408,35 +407,6 @@
 
 
     .jumbotron {
-        .btn-danger {
-            font-family: Roboto-black;
-            .fa-heart {
-                color:#ff0018;
-            }
-            background-color: #0041d2;
-            border-color: #0041d2;
-
-            &:hover {
-                background-color: #053dad;
-                border-color: #053dad;
-            }
-
-            &:focus {
-                //             
-                box-shadow: 0 0 0 0.2rem #0041d27a;
-            }
-
-
-
-            border-radius: 0.25rem !important;
-
-            @include media-breakpoint-down(xs) {
-                width: 100%;
-            }
-
-
-        }
-
         color: black;
         background-image: url("/covid-19/img/Covid-BG-small.jpg");
         background-position: center;
@@ -450,22 +420,16 @@
         // height: 35vh;
         height: 240px;
 
-
         @include media-breakpoint-down(md) {
             height: 160px;
         }
-
-
-
-
-
 
         .display-4 {
             font-family: Roboto-black;
             color: #092644;
 
             @include media-breakpoint-down(sm) {
-                font-size: 1.5625rem;
+                font-size: 1.8rem;
             }
 
             a {

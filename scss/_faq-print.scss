@@ -1,41 +1,50 @@
+/* PARTE DEDICATA ALLA STAMPA */
+
 @media print {
-
- .row {
-     display: block;
- }
+  #navbar-nav {display:none}
+  .section-faq #faq .accordion {border-top: 0}
+  .section-faq #faq .tab-content .card-header {border-left: 0; border-right:0; border-bottom:0}
+  .section-faq #faq .tab-content .card-body {border-left: 0; border-right:0; border-bottom:0}
+  .section-faq #faq .tab-content .card-body p {color:#212529}
+  .section-faq #faq .collapse.show .card-body {border-bottom: 0}
+  .section-faq #faq .tab-content {margin-right:2rem;}
+  .card-body {padding-top:0}
+  .card {border:0}
+  
+  abbr[title], abbr[data-original-title] {text-decoration:none}
+  
+    .row {
+      display: block;
+    }
+  
     .col-lg-4 {
-        flex: none;
-      
-        max-width: 100% !important;
+      flex: none;
+      max-width: 100% !important;
     }
-
-
-
+  
     .col-lg-8 {
-        flex: none !important;
-        max-width: 100%!important;        
-        max-width: 100%;
+      flex: none !important;
+      max-width: 100% !important;
+      max-width: 100%;
     }
-
+  
     .collapse:not(.show) {
-        display: block !important;
-        
+      display: block !important;
     }
-
-
-    .tab-content>.tab-pane {
-        display: block !important;
-        
+  
+    .tab-content > .tab-pane {
+      display: block !important;
     }
-
+  
     .tab-content .card-header h5 a {
-
-        font-weight: bolder!important;
+      font-weight: bolder !important;
     }
-    .tab-content {
-        .title-1 {
-            font-size: 1.5rem;
-        }
-    } 
-   
-}
+  
+    .tab-content .title-1 {
+      font-size: 1.5rem;
+    }
+    
+    .tab-content .title-2 {
+      font-size: 1.2rem;
+    }
+  }
