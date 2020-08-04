@@ -1,11 +1,12 @@
 .solidale {
-
     .btn-lg {
-        background-color: coral!important;
         &:focus {
             outline: none!important;
         }
-
-
+    }
+    .jumbotron{
+        h3.pt-0{
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
     }
 }
